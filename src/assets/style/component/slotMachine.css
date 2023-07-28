@@ -1,0 +1,66 @@
+.slotBox {
+    width: 600px;
+    height: 250px;
+    border-radius: 12px;
+    margin-top: 50px;
+    background-color: #f76f2b;
+}
+
+.slot {
+    width: 170px;
+    height: 230px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 600px;
+    height: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+
+}
+
+.startButton {
+    background-color: #02c5f7;
+}
+
+.startButton:hover {
+    background-color: #07fef5;
+}
+
+.gameOverButton {
+    background-color: #fe552f;
+}
+
+.cashOutButton {
+    width: 100px;
+    height: 30px;
+    background-color: #2e4a68;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 640px) {
+    .slotBox {
+        width: 300px;
+        height: 125px;
+        margin-top: 25px;
+    }
+
+    .slot {
+        width: 70px;
+        height: 110px;
+    }
+
+    .slot img {
+        width: 50px;
+    }
+
+    .button {
+        width: 300px;
+        height: 25px;
+    }
+}

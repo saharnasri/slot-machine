@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* background class  */
+.bg {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: -3 !important;
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+.bg img {
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  width: auto;
+  height: 100vh;
+}
+
+@media screen and (min-width: 1600px) {
+  .bg img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* global class  */
+button {
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.full-height {
+  height: 100%;
+}
