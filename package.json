@@ -2,7 +2,7 @@
   "name": "slot-machine-game",
   "version": "0.0.0",
   "private": true,
-  "author": "Sahar Nasri <snasri258@gmail.com>"
+  "author": "Sahar Nasri <snasri258@gmail.com>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
